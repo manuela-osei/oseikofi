@@ -1,0 +1,355 @@
+/*CSS CODE TO STYLE THE PAGE*/
+
+/*GENERAL BODY STYLING*/
+body
+{
+    margin: 0px;
+    padding: 0px;
+    color:#444444;
+    background: black;
+    font-family: serif;
+}
+
+/*CODE FOR THE BOXES*/
+ #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9
+{
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+#box1
+{
+    background-image: url(images/pic49.jpg);
+    color:whitesmoke;
+    background-attachment: fixed;
+}
+
+#box1 h1
+{
+    padding-top:5%;
+    font-size: 150px;
+    text-align: center;
+    font-family: serif;
+}
+
+#box1 p
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.dropbtn 
+{
+    margin-left: 50%;
+    margin-top: 50%;
+    align-content: left;
+    background-color: whitesmoke;
+    opacity: .3;
+    color:#444444;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn span 
+{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background:#444444;
+    margin: 5px 0px;
+    transition: .2;
+}
+
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    margin-left: 150%;
+    margin-top: -110%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 20px;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+#box2
+{
+    background-image: url(images/pic28.jpg);
+    background-attachment: fixed;
+}
+#box3
+{
+    background-image: url(images/pic53.jpg);
+    background-attachment: fixed;
+}
+#box4
+{
+    background-image: url(images/pic36.jpg);
+    background-attachment: fixed;
+}
+#box5
+{
+    background-image: url(images/pic47.jpg);
+    background-attachment: fixed;
+}
+#box5 div#description p, #box6 div#description p, #box7 div#description p
+{
+    font-size: 15px;
+    padding: 15px;
+}
+#box6
+{
+    background-image: url(images/pic44.jpg);
+    background-attachment: fixed;
+}
+#box7
+{
+    background-image: url(images/pic8.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#box8
+{
+    background-image: url(images/pic59.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#box9
+{
+    background:url(images/pic60.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*CODE FOR THE DIVS FOUND IN THE BOXES*/
+div.content
+{
+    height: 80%;
+    width:37%;
+    margin:5%;
+    float:left;
+}
+
+div#description
+{
+    background: white;
+    opacity: .8;
+}
+
+div#description h2
+{
+    padding: 3px;
+    text-align: center;
+}
+
+div#description p
+{
+   padding: 20px;
+   font-size: 17px;
+}
+
+div#image
+{
+    background: white;
+    opacity: .85;
+}
+
+
+/*CODE FOR THE BUTTONS*/
+#scroll-btn
+{
+    position:fixed; 
+    top:20%; 
+    right:75px;
+}
+
+#link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8, #link9
+{
+    font-family: serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #444444;;
+    padding: 10px;
+    background-color: #E5E5E5;
+    font-size: 15px;
+    cursor: default;
+    position: absolute;
+    opacity:.7;
+}
+
+#link1:hover
+{
+    background: #020401;
+    opacity: .5;
+    transition: 0.6s;
+}
+#link2:hover
+{
+    background: #AF7AC5;
+    opacity: .5;
+    transition: 0.6s;
+}
+#link3:hover
+{
+    background: #754F11;
+    opacity: .5;
+    transition: 0.6s;
+}
+#link4:hover
+{
+    background: #FA9C01;
+    opacity: .5;
+    transition: 0.6s;
+}
+#link5:hover
+{
+    background: #DDDD25 ;
+    opacity: .5;
+    transition: 0.6s;
+}
+#link6:hover
+{
+    background: #529728 ;
+    opacity: .5;
+    transition: 0.6s;
+}
+#link7:hover
+{
+    background: #D35400 ;
+    opacity: .5;
+    transition: 0.6s;
+}
+#link8:hover
+{
+    background: #922B21 ;
+    opacity: .5;
+    transition: 0.6s;
+}
+#link9:hover
+{
+    background: #F013C1 ;
+    opacity: .5;
+    transition: 0.6s;
+}
+
+footer
+{
+    background: #1B1B1F;
+    background-attachment: fixed;
+    width:100%;
+    height:50%;
+    color: white;
+    font-family: serif;
+    text-align: center;
+    padding: 3%;
+}
+
+footer div
+{
+    background: #1B1B1F;
+    border: 1px solid;
+    border-color: gray;
+    width:106%;
+    height: 20%;
+    margin-top: 8%;
+    margin-left: -3%;
+    margin-bottom: 0px;
+}
+footer div
+{
+    text-align: center;
+}
+
+/*STYLING FOR THE LONGTRIP.HTML PAGE*/
+
+
+#longtrip
+{
+    background: url(images/pic30.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#text
+{
+    background: white;
+    opacity:.8;
+    height: cover;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    padding: 5%;
+}
+#text h2
+{
+    text-align: center;
+    font-size: 70px;
+}
+#text p
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*ABOUT PAGE TABS*/
+
+#tabs ul li
+{
+    float: left;
+    background: black;
+    opacity:.8;
+    padding: 20px;
+    margin-left: 5%;
+}
+#tabs ul li:hover
+{
+    background: brown;
+}
+
+#tabs ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#tabs-1
+{
+    margin-top: 5%;
+    padding: 10px;
+}
+
+#tabs-2
+{
+    margin-top: 5%;
+    padding: 10px;
+}
